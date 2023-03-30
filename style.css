@@ -1,6 +1,3 @@
-* {
-  cursor: url('img/cursor.png'),pointer;
-}
 :root {
   --main-color: #0000aa;
   --text-color: #ffffff;
@@ -17,7 +14,9 @@
 	font-family: 'Helvetica'; 
 	src: url(../helvetica_regular.otf); 
 }
-
+* {
+  cursor: url('img/cursor.png'),pointer;
+}
 * {
   margin: 0;
   padding: 0;
