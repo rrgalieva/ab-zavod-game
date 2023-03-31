@@ -8,11 +8,11 @@
 }
 @font-face {
 	font-family: 'Absurd'; 
-	src: url(../zavod-Regular.ttf); 
+	src: url(zavod-Regular.ttf); 
 }
 @font-face {
 	font-family: 'Helvetica'; 
-	src: url(../helvetica_regular.otf); 
+	src: url(helvetica_regular.otf); 
 }
 * {
   cursor: url('img/cursor.png'),pointer;
