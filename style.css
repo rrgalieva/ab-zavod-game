@@ -416,6 +416,19 @@ button {
   color: var(--text-color);
 }
 .outro__restart::before {
+  content: url('img/arrows/левая\ стрелочка.svg');
+  position: absolute;
+  top: 70%;
+  left: -10%;
+  transform: translate(-100%, 0);
+}
+.outro__restart::after {
+  content: url('img/arrows/правая\ стрелочка.svg');
+  position: absolute;
+  top: 0%;
+  right: 0;
+  transform: translate(100%, -80%);
+/* .outro__restart::before {
   content: '';
   background-image: url('img/arrows/левая\ стрелочка.svg');
   background-size: contain;
@@ -440,7 +453,7 @@ button {
   top: 0%;
   right: 0;
   transform: translate(100%, -80%);
-}
+} */
 .outro__footer {
   display: flex;
   justify-content: space-between;
