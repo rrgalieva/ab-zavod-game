@@ -415,7 +415,7 @@ button {
   background-image: url(img/restart.svg);
   color: var(--text-color);
 }
-.outro__restart::before {
+/* .outro__restart::before {
   content: url('img/arrows/левая\ стрелочка.svg');
   position: absolute;
   top: 70%;
@@ -427,8 +427,8 @@ button {
   position: absolute;
   top: 0%;
   right: 0;
-  transform: translate(100%, -80%);
-/* .outro__restart::before {
+  transform: translate(100%, -80%); */
+.outro__restart::before {
   content: '';
   background-image: url('img/arrows/левая\ стрелочка.svg');
   background-size: contain;
@@ -453,7 +453,7 @@ button {
   top: 0%;
   right: 0;
   transform: translate(100%, -80%);
-} */
+}
 .outro__footer {
   display: flex;
   justify-content: space-between;
